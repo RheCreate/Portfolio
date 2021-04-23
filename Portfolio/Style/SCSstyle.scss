@@ -1,0 +1,439 @@
+// Menu Bar
+
+.sidenav {
+    height: 100%; 
+    width: 250px; 
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; 
+    padding-top: 10px;
+  }
+
+  .SideLetter {
+    font-size: 100px;
+    font-family: 'Poiret One';
+    color: #0052cc;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-left: 105px;
+  }
+
+  .SideLine {
+      width: 250px;
+      height: 2px;
+      background: radial-gradient(	#FFD700 25%, #D4AF37 75% )
+  }
+  
+  .sidenav a {
+    padding: 20px 5px 20px 10px;
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #0052cc;
+    display: block;
+    font-family: 'Poiret One';
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .sidenav a:hover {
+    color: #D4AF37;
+    font-weight: 700;
+    border: solid 1px #D4AF37;
+  }
+
+  .socialmedia {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+
+  .socialmedia a:hover {
+    border: none;
+  }
+  
+  @media (min-width: 480px) and (max-width: 767.98px) {
+    .sidenav {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sidenav {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1241.98px) {
+  .sidenav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .SideLetter {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-left: 25px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 0;
+    color: #D4AF37;
+  }
+  .SideLine {
+    display: none;
+  }
+  .sidenav a {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0052cc;
+    display: flex;
+    font-family: 'Poiret One';
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 600;
+  }
+  .sidenav a:hover {
+    color: #D4AF37;
+    font-weight: 700;
+    border: none;
+    text-decoration: underline;
+  } 
+  .sidenav:active {
+    color: #D4AF37;
+  }
+  .socialmedia {
+    padding-top: 5px;
+  }
+}
+
+    // Body
+
+    body {
+      margin: auto;
+  }
+
+  //Main Section 
+
+  .MainSection {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 250px;
+    max-width: 1730px;
+    height: 965px; 
+    justify-content: center;
+    border-left: 1px solid #D4AF37;
+  }
+
+  .MainTXT {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 1500px;
+    height: 866px;
+    letter-spacing: 0.4px;
+    line-height: 25px;
+    margin-top: 35px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 2px solid #D4AF37;
+    border-bottom: 2px solid #D4AF37;
+    background-color: #0052cc;
+    button {
+      display: none;
+    }
+    h1 {
+      font-family: 'Sacramento';
+      color: #D4AF37;
+      font-size: 65px;
+      text-align: left;
+      margin-left: 100px;
+      margin-bottom: 0px;
+    }
+    .Picture {
+      position: absolute;
+      width: 340px;
+      height: 240px;
+      margin-left: 1100px;
+      margin-top: -220px;
+      border-radius: 3px;
+      
+    }
+    .bottom {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    h4 {
+      font-family: 'Sacramento';
+      color: #D4AF37;
+      font-size: 50px;
+      text-align: left;
+    }
+    .Treehouse {
+      width: 50px;
+      height: 50px;
+      margin-left: 200px;
+      margin-top: 50px;
+      position: absolute;
+    }
+    .SCSP{
+      text-align: left;
+      margin-left: 100px;
+      width: 900px;
+    }
+    p {
+      font-family: 'Poiret One';
+      font-weight: 600;
+      color:  white;
+      text-align: left;
+      padding-left: 10px;
+      font-size: 20px;
+      span {
+        color: #5cd65c;
+      }
+      a {
+        color: #5cd65c;
+        &:hover {
+          color: #66ff66;
+        }
+       }
+  }
+}
+
+        // Smaller sized devices media queries
+
+  @media (min-width: 480px) and (max-width: 767.98px) {
+    .MainSection {
+      width: 100%;
+      padding: none;
+      border-left: none;
+      margin-left: 0px;
+    }
+    .MainTXT {
+      max-width: 75%;
+      height: 100%;
+      height: 1500px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-top: 0;
+      padding: 0;
+      button {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        background-color: #000066;
+        color: #D4AF37;
+        border: 2px #D4AF37 solid;
+        border-radius: 3px;
+        top: 0px;
+        margin-left: 10px;
+        margin-top: -25px;
+        .fas {
+          margin-top: 15px;
+        }
+      }
+      a {
+        text-decoration: none;
+        width: 60px;
+        height: 60px;
+      }
+      button:hover {
+        color: #D4AF37;
+        background-color: #0052cc;
+        border: 2px #D4AF37 solid;
+      }
+      .Top {
+        width: 100%;
+        flex-direction: column;
+        margin-top: -50px;
+        margin-bottom: 70px;
+      }
+      h1 {
+        font-size: 40px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        line-height: 35px;
+      }
+      .SCSP{
+        text-align: left;
+        margin-left: 0px;
+        width: 90%;
+      }
+      .Picture {
+        position: absolute;
+        margin-left: 10px;
+        width: 300px;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+      .bottom {
+        width: 90%;
+        flex-direction: column;
+        margin-top: 100px;
+      }
+      h4 {
+        margin-left: 10px;
+        font-size: 35px;
+      }
+      .Treehouse {
+        margin-left: 150px;
+        margin-top: 25px;
+      }
+        p {
+          font-size: 15px;
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .MainSection {
+      width: 100%;
+      padding: none;
+      border-left: none;
+      margin-left: 0;
+    }
+    .MainTXT {
+      max-width: 90%;
+      height: 1200px;
+      flex-direction: column;
+      margin-top: 0;
+      button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        background-color: #000066;
+        color: #D4AF37;
+        border: 2px #D4AF37 solid;
+        border-radius: 3px;
+        margin-top: -50px;
+        .fas {
+          margin-left: 10px;
+        }
+      }
+      a {
+        text-decoration: none;
+        width: 60px;
+        height: 60px;
+      }
+      button:hover {
+        color: #D4AF37;
+        background-color: #0052cc;
+        border: 2px #D4AF37 solid;
+      }
+      .Top {
+        width: 100%;
+        flex-direction: column;
+        margin-top: -100px;
+        margin-bottom: 70px;
+      }
+      h1 {
+        font-size: 40px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        line-height: 35px;
+      }
+      .SCSP{
+        text-align: left;
+        margin-left: 0px;
+        width: 90%;
+      }
+      .Picture {
+        position: absolute;
+        margin-left: 10px;
+        width: 300px;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+      .bottom {
+        width: 90%;
+        flex-direction: column;
+        margin-top: 125px;
+      }
+      h4 {
+        margin-left: 10px;
+        font-size: 35px;
+      }
+      .Treehouse {
+        margin-left: 150px;
+        margin-top: 25px;
+      }
+        p {
+          font-size: 15px;
+      }
+    }
+  }
+
+  // Large-medium/Small-large devices
+
+  @media (min-width: 992px) and (max-width: 1241.98px) {
+
+    .MainSection {
+      width: 100%;
+      padding: none;
+      border-left: none;
+      margin-left: 0px;
+    }
+    .MainTXT {
+      max-width: 90%;
+      height: 900px;
+      flex-direction: column;
+      margin-top: 25px;
+      padding-bottom: 0px;
+      overflow: hidden;
+      .Top {
+        width: 100%;
+        margin-top: -75px;
+        margin-bottom: 0px;
+        flex-direction: row;
+      }
+      h1 {
+        width: 100%;
+        margin-left: 10px;
+        margin-bottom: 25px;
+        line-height: 65px;
+      }
+      .SCSP{
+        text-align: left;
+        margin-left: 0px;
+        width: 100%;
+      }
+      .Picture {
+        display: none;
+      }
+      .bottom {
+        width: 100%;
+        margin-top: 0px;
+      }
+      .bottom1 {
+        width: 55%;
+        padding-right: 10px;
+      }
+      h4 {
+        margin-left: 10px;
+      }
+      .Treehouse {
+        margin-left: 200px;
+        margin-top: 50px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }

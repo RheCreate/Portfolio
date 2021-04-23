@@ -1,0 +1,810 @@
+// Menu Bar
+
+.sidenav {
+    height: 100%; 
+    width: 250px; 
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; 
+    padding-top: 10px;
+  }
+
+  .SideLetter {
+    font-size: 100px;
+    font-family: 'Poiret One';
+    color: #0052cc;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-left: 105px;
+  }
+
+  .SideLine {
+      width: 250px;
+      height: 2px;
+      background: radial-gradient(	#FFD700 25%, #D4AF37 75% )
+  }
+  
+  .sidenav a {
+    padding: 20px 5px 20px 10px;
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #0052cc;
+    display: block;
+    font-family: 'Poiret One';
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .sidenav a:hover {
+    color: #D4AF37;
+    font-weight: 700;
+    border: solid 1px #D4AF37;
+  }
+
+  .socialmedia {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+
+  .socialmedia a:hover {
+    border: none;
+  }
+  
+  @media (min-width: 480px) and (max-width: 767.98px) {
+    .sidenav {
+        display: none;
+    }
+}
+
+//Small/Medium devices
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sidenav {
+        display: none;
+    }
+}
+
+// Large-medium/Small-large devices
+
+@media (min-width: 992px) and (max-width: 1241.98px) {
+    .sidenav {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      height: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .SideLetter {
+      font-size: 20px;
+      margin-left: 25px;
+      margin-left: 25px;
+      display: flex;
+      padding-top: 10px;
+      padding-bottom: 0;
+      color: #D4AF37;
+    }
+    .SideLine {
+      display: none;
+    }
+    .sidenav a {
+      padding-top: 10px;
+      padding-bottom: 0px;
+      margin-top: 0px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #0052cc;
+      display: flex;
+      font-family: 'Poiret One';
+      text-align: center;
+      vertical-align: middle;
+      font-weight: 600;
+    }
+    .sidenav a:hover {
+      color: #D4AF37;
+      font-weight: 700;
+      border: none;
+      text-decoration: underline;
+    } 
+    .sidenav:active {
+      color: #D4AF37;
+    }
+    .socialmedia {
+      padding-top: 5px;
+    }
+  }
+
+
+  // Body
+
+  body {
+      margin: 0px;
+  }
+
+  //Introduction Section
+  
+  .IntroSection {
+    display: flex;
+    position: relative;
+    margin-left: 250px;
+    max-width: 1730px;
+    height: 968px; 
+    justify-content: center;
+    border-left: 1px solid #D4AF37;
+  }
+  .BannerImage {
+      width: 1730px;
+      height: 968px;
+      margin: auto;
+  }
+  button {
+    display: none;
+  }
+
+  .IntroText {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      position: absolute;
+      letter-spacing: 0.4px;
+      margin-top: 200px;
+      line-height: 40px;
+      text-align: center;
+      font-family: 'Sacramento';
+      h1 {
+          font-size: 150px;
+          color: white;
+          mix-blend-mode:difference;
+      }
+      p {
+          font-size: 80px;
+          color: white;
+          mix-blend-mode: difference;
+      }
+  }
+
+  .IntroScroll {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      margin-bottom: 20px;
+      bottom:0;
+      .fas {
+          color: white;
+          margin-left: 55px;
+          padding-top: 5px;
+          mix-blend-mode: difference;
+      }
+  }
+
+  .ScrollTXT {
+    font-family: 'Poiret One';
+    font-size: 25px;
+    color: #0052cc;
+    font-weight: 700;
+  }
+
+ // Smaller sized devices media queries
+
+ @media (min-width: 480px) and (max-width: 767.98px) {
+    .IntroSection {
+      width: 100%;
+      height: 500px;
+      padding: none;
+      border-left: none;
+      margin-left: 0;
+      margin-left: 0px;
+      .BannerImage {
+          width: 100%;
+          height: 500px;
+      }
+      button {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        background-color: #000066;
+        color: #D4AF37;
+        border: 2px #D4AF37 solid;
+        border-radius: 3px;
+        margin-top: 0px;
+        left: 0;
+        .fas {
+          margin-top: 15px;
+        }
+      }
+      a {
+        text-decoration: none;
+        width: 60px;
+        height: 60px;
+      }
+      button:hover {
+        color: #D4AF37;
+        background-color: #0052cc;
+        border: 2px #D4AF37 solid;
+      }
+    }
+    .IntroText {
+      max-width: 100%;
+      height: 400px;
+      margin-top: 100px;
+      h1 {
+          font-size: 75px;
+      }
+      p {
+        font-size: 40px;
+    }
+    }
+    .IntroScroll {
+        .fas {
+            margin-left: 45px;
+        }
+    }
+    .ScrollTXT {
+        font-size: 20px;
+    }
+}
+
+ //Small/Medium devices
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+ 
+    .IntroSection {
+        width: 100%;
+        height: 500px;
+        padding: none;
+        border-left: none;
+        margin-left: 0px;
+        .BannerImage {
+            min-width: 100%;
+            height: 500px;
+            margin: 0px;
+        }
+        button {
+          display: flex;
+          position: absolute;
+          justify-content: center;
+          width: 60px;
+          height: 60px;
+          background-color: #000066;
+          color: #D4AF37;
+          border: 2px #D4AF37 solid;
+          border-radius: 3px;
+          margin-top: 0px;
+          left: 0;
+          .fas {
+            margin-top: 15px;
+          }
+        }
+        a {
+          text-decoration: none;
+          width: 60px;
+          height: 60px;
+        }
+        button:hover {
+          color: #D4AF37;
+          background-color: #0052cc;
+          border: 2px #D4AF37 solid;
+        }
+      }
+      .IntroText {
+        max-width: 100%;
+        height: 400px;
+        margin-top: 100px;
+        h1 {
+            font-size: 75px;
+        }
+        p {
+          font-size: 40px;
+      }
+      }
+      .IntroScroll {
+          .fas {
+              margin-left: 45px;
+          }
+      }
+      .ScrollTXT {
+          font-size: 20px;
+      }
+ }
+
+  // Large-medium/Small-large devices
+
+  @media (min-width: 992px) and (max-width: 1241.98px) {
+
+    .IntroSection {
+      width: 100%;
+      padding: none;
+      border-left: none;
+      margin-left: 0px;
+      .BannerImage {
+        min-width: 100%;
+        height: 800px;
+        margin: 0px;
+    }
+    .IntroText {
+        max-width: 150%;
+        height: 800px;
+        margin-top: 100px;
+        h1 {
+            font-size: 120px;
+        }
+      }
+    }
+    .IntroScroll {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-bottom: 250px;
+        .fas {
+            color: white;
+            margin-left: 55px;
+            padding-top: 5px;
+            mix-blend-mode: difference;
+        }
+    }
+    .ScrollTXT {
+      font-family: 'Poiret One';
+      font-size: 25px;
+      color: #0052cc;
+      font-weight: 700;
+    }
+
+}
+
+
+  // Project Tiles Section
+
+  .ProjectSection {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    max-width: 1730px;
+    height: 1300px; 
+    border-left: 1px solid #D4AF37;
+  }
+
+  .ProjectInner {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: 1550px;
+      height: 1230px;
+      margin-top: 40px;
+      border-bottom: 1px solid #D4AF37;
+      .PBox {
+          max-width: 500px;
+          height: 550px;
+          overflow: hidden;
+          margin-top: 30px;
+          .ImageBox {
+              width: 500px;
+              height: 400px;
+          }
+          .PPic {
+              width: 500px;
+              height: 400px;
+              &:hover {
+                transform: scale(1.1);
+                transition: all .25s cubic-bezier(.215,.61,.355,1);
+            }
+          }
+          .ProjectTXT {
+              width: 550px;
+              height: 200px;
+              color: #0052cc;
+              font-family: 'Poiret One';
+              h3 {
+                  font-size: 30px;
+                  color: #D4AF37;
+              }
+              .Under {
+                font-weight: 600;
+                &:hover {
+                    text-decoration: underline;
+                }
+              }
+          }
+      }
+  }
+
+  .ProjectInner a {
+      text-decoration: none;
+      color: #0052cc;
+  }
+
+// Smaller sized devices media queries
+
+@media (min-width: 480px) and (max-width: 767.98px) {
+    .ProjectSection {
+        width: 100%;
+        height: 3500px;
+        margin-left: 0px;
+        justify-content: center;
+        border-left: none;
+    }
+    .ProjectInner {
+        max-width: 100%;
+        height: 3500px;
+        flex-direction: column;
+        border-bottom: none;
+        justify-content: left;
+    .PBox {
+        width: 400px;
+        margin-top: 15px;
+        .ImageBox {
+            width: 400px;
+        }
+        .PPic {
+            width: 400px;
+            &:hover {
+                transform: none;
+                transition: none;
+            }
+        }
+    }
+    }
+}
+
+//Small/Medium devices
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+    .ProjectSection {
+        width: 100%;
+        height: 3500px;
+        margin-left: 0px;
+        justify-content: center;
+        border-left: none;
+    }
+    .ProjectInner {
+        max-width: 100%;
+        height: 3500px;
+        flex-direction: column;
+        border-bottom: none;
+        justify-content: left;
+    .PBox {
+        width: 500px;
+        margin-top: 15px;
+        .ImageBox {
+            width: 500px;
+        }
+        .PPic {
+            width: 500px;
+            &:hover {
+                transform: none;
+                transition: none;
+            }
+        }
+    }
+    }
+}
+
+ // Large-medium/Small-large devices
+
+ @media (min-width: 992px) and (max-width: 1241.98px) {
+
+    .ProjectSection {
+        width: 100%;
+        height: 1500px;
+        margin-left: 0px;
+        justify-content: center;
+        border-left: none;
+    }
+    .ProjectInner {
+        max-width: 75%;
+        height: 1500px;
+        flex-direction: row;
+        border-bottom: none;
+        justify-content: space-between;
+        margin-top: -150px;
+    .PBox {
+        width: 400px;
+        margin-top: 15px;
+        .ImageBox {
+            width: 400px;
+        }
+        .PPic {
+            width: 400px;
+        }
+    }
+    }
+ }
+
+
+
+// Form Section
+
+.FormSection {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    max-width: 1730px;
+    height: 650px; 
+    border-left: 1px solid #D4AF37;
+}
+
+.FormInner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+      max-width: 1550px;
+      height: 600px;
+      margin-top: 40px;
+      font-family: 'Poiret One';
+      font-weight: 600;
+      color: #D4AF37;
+      .FormTXTbox {
+          width: 450px;
+          letter-spacing: 0.4px;
+          margin-top: -30px;
+          padding-right: 20px;
+          text-align: left;
+          h2 {
+              font-family: 'Sacramento';
+              font-size: 60px;
+          }
+          p {
+              color: #0052cc;
+              font-size: 30px;
+          }
+          .fas {
+              margin-left: 150px;
+          }
+      }
+}
+
+//Form 
+
+input {
+    font-family: 'Poiret One';
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    &:focus {
+        outline: none;
+        box-shadow: #0052cc 0px 0px 8px 0px;
+        font-family: 'Poiret One';
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        padding-left: 10px;
+    }
+}
+
+textarea {
+    font-family: 'Poiret One';
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    &:focus {
+        outline: none;
+        box-shadow: #0052cc 0px 0px 8px 0px;
+        font-family: 'Poiret One';
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        padding-left: 10px;
+    }
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+      background-color: #0052cc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0066ff;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 0;
+  }
+
+ 
+  // Smaller sized devices media queries
+
+  @media (min-width: 480px) and (max-width: 767.98px)  {
+
+    .FormSection {
+        width: 100%;
+        height: 800px;
+        margin-left: 0px;
+        justify-content: flex-start;
+        border-top: 1px solid #D4AF37;
+    }
+    .FormInner {
+        width: 100%;
+        height: 800px;
+        flex-direction: column;
+        margin-top: 0;
+        border-bottom: none;
+        .FormTXTbox {
+            width: 75%;
+            margin-top: 0;
+            margin-left: 15px;
+            h2 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 15px;
+
+            }
+            .fas {
+                visibility: hidden;
+            }
+        }
+        Form {
+            width: 75%;
+            margin-left: 15px;
+            margin-top: -90px;
+            padding-bottom: 50px;
+        }
+    }
+  }
+
+  //Small/Medium devices
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .FormSection {
+        width: 100%;
+        height: 800px;
+        margin-left: 0px;
+        justify-content: flex-start;
+        border-top: 1px solid #D4AF37;
+    }
+    .FormInner {
+        width: 100%;
+        height: 800px;
+        flex-direction: column;
+        margin-top: 0;
+        border-bottom: none;
+        .FormTXTbox {
+            width: 75%;
+            margin-top: 0;
+            margin-left: 15px;
+            h2 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 15px;
+
+            }
+            .fas {
+                visibility: hidden;
+            }
+        }
+        Form {
+            width: 75%;
+            margin-left: 15px;
+            margin-top: -90px;
+            padding-bottom: 50px;
+        }
+    }
+}
+
+ // Large-medium/Small-large devices
+
+ @media (min-width: 992px) and (max-width: 1241.98px) {
+
+    .FormSection {
+        width: 100%;
+        height: 800px;
+        margin-left: 0px;
+        justify-content: flex-start;
+        border-top: 1px solid #D4AF37;
+        margin-top: 100px;
+    }
+    .FormInner {
+        width: 100%;
+        height: 800px;
+        flex-direction: column;
+        margin-top: 0;
+        border-bottom: none;
+        padding-top: 25px;
+        .FormTXTbox {
+            width: 75%;
+            margin-top: 0;
+            margin-left: 15px;
+            h2 {
+                font-size: 60px;
+            }
+            p {
+                font-size: 25px;
+
+            }
+            .fas {
+                visibility: hidden;
+            }
+        }
+        Form {
+            width: 75%;
+            margin-left: 15px;
+            margin-top: -90px;
+            padding-bottom: 50px;
+        }
+    }
+ }
+
+
+  // Back to top section 
+
+  .BackTop {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1650px;
+    height: 100px;
+    justify-content: center;
+    margin-left: 250px;
+    border-left: 1px solid #D4AF37;
+    background-color: #0052cc;
+        .fas {
+            color: #D4AF37;
+            margin-left: 805px;
+            padding-bottom: 5px;
+            &:hover {
+                color: white;
+            }
+        }
+        .TopTXT {
+            font-family: 'Poiret One';
+            font-size: 25px;
+            color: #D4AF37;
+            font-weight: 700;
+            margin-left: 750px;
+          }
+    }
+
+    // Smaller sized devices media queries
+
+  @media (min-width: 480px) and (max-width: 767.98px)  {
+        .BackTop {
+            display: none;
+            }
+    }
+
+    //Small/Medium devices
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .BackTop {
+        display: none;
+    }
+}
+
+// Large-medium/Small-large devices
+
+@media (min-width: 992px) and (max-width: 1241.98px) {
+
+    .BackTop {
+        display: none;
+    }
+}
+
+ 
+

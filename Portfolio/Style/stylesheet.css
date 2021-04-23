@@ -1,0 +1,880 @@
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.SideLetter {
+  font-size: 100px;
+  font-family: 'Poiret One';
+  color: #0052cc;
+  font-weight: 600;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  margin-left: 105px;
+}
+
+.SideLine {
+  width: 250px;
+  height: 2px;
+  background: radial-gradient(#FFD700 25%, #D4AF37 75%);
+}
+
+.sidenav a {
+  padding: 20px 5px 20px 10px;
+  margin-top: 40px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #0052cc;
+  display: block;
+  font-family: 'Poiret One';
+  text-align: center;
+  font-weight: 600;
+}
+
+.sidenav a:hover {
+  color: #D4AF37;
+  font-weight: 700;
+  border: solid 1px #D4AF37;
+}
+
+.socialmedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.socialmedia a:hover {
+  border: none;
+}
+
+@media (min-width: 480px) and (max-width: 767.98px) {
+  .sidenav {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sidenav {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1241.98px) {
+  .sidenav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .SideLetter {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-left: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 0;
+    color: #D4AF37;
+  }
+  .SideLine {
+    display: none;
+  }
+  .sidenav a {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0052cc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'Poiret One';
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 600;
+  }
+  .sidenav a:hover {
+    color: #D4AF37;
+    font-weight: 700;
+    border: none;
+    text-decoration: underline;
+  }
+  .sidenav:active {
+    color: #D4AF37;
+  }
+  .socialmedia {
+    padding-top: 5px;
+  }
+}
+
+body {
+  margin: 0px;
+}
+
+.IntroSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-left: 250px;
+  max-width: 1730px;
+  height: 968px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-left: 1px solid #D4AF37;
+}
+
+.BannerImage {
+  width: 1730px;
+  height: 968px;
+  margin: auto;
+}
+
+button {
+  display: none;
+}
+
+.IntroText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: absolute;
+  letter-spacing: 0.4px;
+  margin-top: 200px;
+  line-height: 40px;
+  text-align: center;
+  font-family: 'Sacramento';
+}
+
+.IntroText h1 {
+  font-size: 150px;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.IntroText p {
+  font-size: 80px;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.IntroScroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  margin-bottom: 20px;
+  bottom: 0;
+}
+
+.IntroScroll .fas {
+  color: white;
+  margin-left: 55px;
+  padding-top: 5px;
+  mix-blend-mode: difference;
+}
+
+.ScrollTXT {
+  font-family: 'Poiret One';
+  font-size: 25px;
+  color: #0052cc;
+  font-weight: 700;
+}
+
+@media (min-width: 480px) and (max-width: 767.98px) {
+  .IntroSection {
+    width: 100%;
+    height: 500px;
+    padding: none;
+    border-left: none;
+    margin-left: 0;
+    margin-left: 0px;
+  }
+  .IntroSection .BannerImage {
+    width: 100%;
+    height: 500px;
+  }
+  .IntroSection button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #000066;
+    color: #D4AF37;
+    border: 2px #D4AF37 solid;
+    border-radius: 3px;
+    margin-top: 0px;
+    left: 0;
+  }
+  .IntroSection button .fas {
+    margin-top: 15px;
+  }
+  .IntroSection a {
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+  }
+  .IntroSection button:hover {
+    color: #D4AF37;
+    background-color: #0052cc;
+    border: 2px #D4AF37 solid;
+  }
+  .IntroText {
+    max-width: 100%;
+    height: 400px;
+    margin-top: 100px;
+  }
+  .IntroText h1 {
+    font-size: 75px;
+  }
+  .IntroText p {
+    font-size: 40px;
+  }
+  .IntroScroll .fas {
+    margin-left: 45px;
+  }
+  .ScrollTXT {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .IntroSection {
+    width: 100%;
+    height: 500px;
+    padding: none;
+    border-left: none;
+    margin-left: 0px;
+  }
+  .IntroSection .BannerImage {
+    min-width: 100%;
+    height: 500px;
+    margin: 0px;
+  }
+  .IntroSection button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #000066;
+    color: #D4AF37;
+    border: 2px #D4AF37 solid;
+    border-radius: 3px;
+    margin-top: 0px;
+    left: 0;
+  }
+  .IntroSection button .fas {
+    margin-top: 15px;
+  }
+  .IntroSection a {
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+  }
+  .IntroSection button:hover {
+    color: #D4AF37;
+    background-color: #0052cc;
+    border: 2px #D4AF37 solid;
+  }
+  .IntroText {
+    max-width: 100%;
+    height: 400px;
+    margin-top: 100px;
+  }
+  .IntroText h1 {
+    font-size: 75px;
+  }
+  .IntroText p {
+    font-size: 40px;
+  }
+  .IntroScroll .fas {
+    margin-left: 45px;
+  }
+  .ScrollTXT {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1241.98px) {
+  .IntroSection {
+    width: 100%;
+    padding: none;
+    border-left: none;
+    margin-left: 0px;
+  }
+  .IntroSection .BannerImage {
+    min-width: 100%;
+    height: 800px;
+    margin: 0px;
+  }
+  .IntroSection .IntroText {
+    max-width: 150%;
+    height: 800px;
+    margin-top: 100px;
+  }
+  .IntroSection .IntroText h1 {
+    font-size: 120px;
+  }
+  .IntroScroll {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    margin-bottom: 250px;
+  }
+  .IntroScroll .fas {
+    color: white;
+    margin-left: 55px;
+    padding-top: 5px;
+    mix-blend-mode: difference;
+  }
+  .ScrollTXT {
+    font-family: 'Poiret One';
+    font-size: 25px;
+    color: #0052cc;
+    font-weight: 700;
+  }
+}
+
+.ProjectSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 250px;
+  max-width: 1730px;
+  height: 1300px;
+  border-left: 1px solid #D4AF37;
+}
+
+.ProjectInner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1550px;
+  height: 1230px;
+  margin-top: 40px;
+  border-bottom: 1px solid #D4AF37;
+}
+
+.ProjectInner .PBox {
+  max-width: 500px;
+  height: 550px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.ProjectInner .PBox .ImageBox {
+  width: 500px;
+  height: 400px;
+}
+
+.ProjectInner .PBox .PPic {
+  width: 500px;
+  height: 400px;
+}
+
+.ProjectInner .PBox .PPic:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.ProjectInner .PBox .ProjectTXT {
+  width: 550px;
+  height: 200px;
+  color: #0052cc;
+  font-family: 'Poiret One';
+}
+
+.ProjectInner .PBox .ProjectTXT h3 {
+  font-size: 30px;
+  color: #D4AF37;
+}
+
+.ProjectInner .PBox .ProjectTXT .Under {
+  font-weight: 600;
+}
+
+.ProjectInner .PBox .ProjectTXT .Under:hover {
+  text-decoration: underline;
+}
+
+.ProjectInner a {
+  text-decoration: none;
+  color: #0052cc;
+}
+
+@media (min-width: 480px) and (max-width: 767.98px) {
+  .ProjectSection {
+    width: 100%;
+    height: 3500px;
+    margin-left: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-left: none;
+  }
+  .ProjectInner {
+    max-width: 100%;
+    height: 3500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-bottom: none;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .ProjectInner .PBox {
+    width: 400px;
+    margin-top: 15px;
+  }
+  .ProjectInner .PBox .ImageBox {
+    width: 400px;
+  }
+  .ProjectInner .PBox .PPic {
+    width: 400px;
+  }
+  .ProjectInner .PBox .PPic:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .ProjectSection {
+    width: 100%;
+    height: 3500px;
+    margin-left: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-left: none;
+  }
+  .ProjectInner {
+    max-width: 100%;
+    height: 3500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-bottom: none;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .ProjectInner .PBox {
+    width: 500px;
+    margin-top: 15px;
+  }
+  .ProjectInner .PBox .ImageBox {
+    width: 500px;
+  }
+  .ProjectInner .PBox .PPic {
+    width: 500px;
+  }
+  .ProjectInner .PBox .PPic:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1241.98px) {
+  .ProjectSection {
+    width: 100%;
+    height: 1500px;
+    margin-left: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-left: none;
+  }
+  .ProjectInner {
+    max-width: 75%;
+    height: 1500px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    border-bottom: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: -150px;
+  }
+  .ProjectInner .PBox {
+    width: 400px;
+    margin-top: 15px;
+  }
+  .ProjectInner .PBox .ImageBox {
+    width: 400px;
+  }
+  .ProjectInner .PBox .PPic {
+    width: 400px;
+  }
+}
+
+.FormSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 250px;
+  max-width: 1730px;
+  height: 650px;
+  border-left: 1px solid #D4AF37;
+}
+
+.FormInner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 1550px;
+  height: 600px;
+  margin-top: 40px;
+  font-family: 'Poiret One';
+  font-weight: 600;
+  color: #D4AF37;
+}
+
+.FormInner .FormTXTbox {
+  width: 450px;
+  letter-spacing: 0.4px;
+  margin-top: -30px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.FormInner .FormTXTbox h2 {
+  font-family: 'Sacramento';
+  font-size: 60px;
+}
+
+.FormInner .FormTXTbox p {
+  color: #0052cc;
+  font-size: 30px;
+}
+
+.FormInner .FormTXTbox .fas {
+  margin-left: 150px;
+}
+
+input {
+  font-family: 'Poiret One';
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+input:focus {
+  outline: none;
+  -webkit-box-shadow: #0052cc 0px 0px 8px 0px;
+          box-shadow: #0052cc 0px 0px 8px 0px;
+  font-family: 'Poiret One';
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  padding-left: 10px;
+}
+
+textarea {
+  font-family: 'Poiret One';
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+textarea:focus {
+  outline: none;
+  -webkit-box-shadow: #0052cc 0px 0px 8px 0px;
+          box-shadow: #0052cc 0px 0px 8px 0px;
+  font-family: 'Poiret One';
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  padding-left: 10px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #0052cc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0066ff;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0;
+}
+
+@media (min-width: 480px) and (max-width: 767.98px) {
+  .FormSection {
+    width: 100%;
+    height: 800px;
+    margin-left: 0px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    border-top: 1px solid #D4AF37;
+  }
+  .FormInner {
+    width: 100%;
+    height: 800px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0;
+    border-bottom: none;
+  }
+  .FormInner .FormTXTbox {
+    width: 75%;
+    margin-top: 0;
+    margin-left: 15px;
+  }
+  .FormInner .FormTXTbox h2 {
+    font-size: 40px;
+  }
+  .FormInner .FormTXTbox p {
+    font-size: 15px;
+  }
+  .FormInner .FormTXTbox .fas {
+    visibility: hidden;
+  }
+  .FormInner Form {
+    width: 75%;
+    margin-left: 15px;
+    margin-top: -90px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .FormSection {
+    width: 100%;
+    height: 800px;
+    margin-left: 0px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    border-top: 1px solid #D4AF37;
+  }
+  .FormInner {
+    width: 100%;
+    height: 800px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0;
+    border-bottom: none;
+  }
+  .FormInner .FormTXTbox {
+    width: 75%;
+    margin-top: 0;
+    margin-left: 15px;
+  }
+  .FormInner .FormTXTbox h2 {
+    font-size: 40px;
+  }
+  .FormInner .FormTXTbox p {
+    font-size: 15px;
+  }
+  .FormInner .FormTXTbox .fas {
+    visibility: hidden;
+  }
+  .FormInner Form {
+    width: 75%;
+    margin-left: 15px;
+    margin-top: -90px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1241.98px) {
+  .FormSection {
+    width: 100%;
+    height: 800px;
+    margin-left: 0px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    border-top: 1px solid #D4AF37;
+    margin-top: 100px;
+  }
+  .FormInner {
+    width: 100%;
+    height: 800px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0;
+    border-bottom: none;
+    padding-top: 25px;
+  }
+  .FormInner .FormTXTbox {
+    width: 75%;
+    margin-top: 0;
+    margin-left: 15px;
+  }
+  .FormInner .FormTXTbox h2 {
+    font-size: 60px;
+  }
+  .FormInner .FormTXTbox p {
+    font-size: 25px;
+  }
+  .FormInner .FormTXTbox .fas {
+    visibility: hidden;
+  }
+  .FormInner Form {
+    width: 75%;
+    margin-left: 15px;
+    margin-top: -90px;
+    padding-bottom: 50px;
+  }
+}
+
+.BackTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 1650px;
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 250px;
+  border-left: 1px solid #D4AF37;
+  background-color: #0052cc;
+}
+
+.BackTop .fas {
+  color: #D4AF37;
+  margin-left: 805px;
+  padding-bottom: 5px;
+}
+
+.BackTop .fas:hover {
+  color: white;
+}
+
+.BackTop .TopTXT {
+  font-family: 'Poiret One';
+  font-size: 25px;
+  color: #D4AF37;
+  font-weight: 700;
+  margin-left: 750px;
+}
+
+@media (min-width: 480px) and (max-width: 767.98px) {
+  .BackTop {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .BackTop {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1241.98px) {
+  .BackTop {
+    display: none;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */
