@@ -146,7 +146,7 @@ body {
   border-left: 1px solid #D4AF37;
 }
 
-.MainSection button {
+.MainSection .button {
   display: none;
 }
 
@@ -190,7 +190,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .SectionInner button {
+  .SectionInner .button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -204,7 +204,7 @@ body {
     border: 2px #D4AF37 solid;
     border-radius: 3px;
   }
-  .SectionInner button .fas {
+  .SectionInner .button .fas {
     margin-top: 15px;
   }
   .SectionInner a {
@@ -212,7 +212,7 @@ body {
     width: 60px;
     height: 60px;
   }
-  .SectionInner button:hover {
+  .SectionInner .button:hover {
     color: #D4AF37;
     background-color: #0052cc;
     border: 2px #D4AF37 solid;
@@ -244,7 +244,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .SectionInner button {
+  .SectionInner .button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -262,7 +262,7 @@ body {
     border: 2px #D4AF37 solid;
     border-radius: 3px;
   }
-  .SectionInner button .fas {
+  .SectionInner .button .fas {
     margin-left: 10px;
   }
   .SectionInner a {
@@ -270,7 +270,7 @@ body {
     width: 60px;
     height: 60px;
   }
-  .SectionInner button:hover {
+  .SectionInner .button:hover {
     color: #D4AF37;
     background-color: #0052cc;
     border: 2px #D4AF37 solid;

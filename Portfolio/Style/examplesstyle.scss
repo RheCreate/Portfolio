@@ -134,7 +134,7 @@
     height: 950px; 
     justify-content: center;
     border-left: 1px solid #D4AF37;
-    button {
+    .button {
       display: none;
     }
   }
@@ -169,7 +169,7 @@
       max-width: 75%;
       justify-content: center;
       flex-direction: column;
-      button {
+      .button {
         display: flex;
         justify-content: center;
         width: 60px;
@@ -187,7 +187,7 @@
         width: 60px;
         height: 60px;
       }
-      button:hover {
+      .button:hover {
         color: #D4AF37;
         background-color: #0052cc;
         border: 2px #D4AF37 solid;
@@ -215,7 +215,7 @@
       max-width: 75%;
       justify-content: center;
       flex-direction: column;
-      button {
+      .button {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -234,7 +234,7 @@
         width: 60px;
         height: 60px;
       }
-      button:hover {
+      .button:hover {
         color: #D4AF37;
         background-color: #0052cc;
         border: 2px #D4AF37 solid;
