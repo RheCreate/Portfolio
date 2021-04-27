@@ -147,7 +147,7 @@
     padding-left: 15px;
     border-top: 2px solid #D4AF37;
     border-bottom: 2px solid #D4AF37;
-    button {
+    .button {
       display: none;
     }
     .AboutTitle {
@@ -260,7 +260,7 @@
       height: 2000px;
       flex-direction: column;
       margin-top: 0;
-      button {
+      .button {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -280,7 +280,7 @@
         width: 60px;
         height: 60px;
       }
-      button:hover {
+      .button:hover {
         color: #D4AF37;
         background-color: #0052cc;
         border: 2px #D4AF37 solid;
@@ -351,7 +351,7 @@
       height: 2500px;
       flex-direction: column;
       margin-top: 0;
-      button {
+      .button {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -371,7 +371,7 @@
         width: 60px;
         height: 60px;
       }
-      button:hover {
+      .button:hover {
         color: #D4AF37;
         background-color: #0052cc;
         border: 2px #D4AF37 solid;
