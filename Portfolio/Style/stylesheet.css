@@ -152,7 +152,7 @@ body {
   margin: auto;
 }
 
-button {
+.button {
   display: none;
 }
 
@@ -226,7 +226,7 @@ button {
     width: 100%;
     height: 500px;
   }
-  .IntroSection button {
+  .IntroSection .button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -243,7 +243,7 @@ button {
     margin-top: 0px;
     left: 0;
   }
-  .IntroSection button .fas {
+  .IntroSection .button .fas {
     margin-top: 15px;
   }
   .IntroSection a {
@@ -251,7 +251,7 @@ button {
     width: 60px;
     height: 60px;
   }
-  .IntroSection button:hover {
+  .IntroSection .button:hover {
     color: #D4AF37;
     background-color: #0052cc;
     border: 2px #D4AF37 solid;
@@ -288,7 +288,7 @@ button {
     height: 500px;
     margin: 0px;
   }
-  .IntroSection button {
+  .IntroSection .button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -305,7 +305,7 @@ button {
     margin-top: 0px;
     left: 0;
   }
-  .IntroSection button .fas {
+  .IntroSection .button .fas {
     margin-top: 15px;
   }
   .IntroSection a {
@@ -313,7 +313,7 @@ button {
     width: 60px;
     height: 60px;
   }
-  .IntroSection button:hover {
+  .IntroSection .button:hover {
     color: #D4AF37;
     background-color: #0052cc;
     border: 2px #D4AF37 solid;

@@ -143,7 +143,7 @@
       height: 968px;
       margin: auto;
   }
-  button {
+  .button {
     display: none;
   }
 
@@ -204,7 +204,7 @@
           width: 100%;
           height: 500px;
       }
-      button {
+      .button {
         display: flex;
         position: absolute;
         justify-content: center;
@@ -225,7 +225,7 @@
         width: 60px;
         height: 60px;
       }
-      button:hover {
+      .button:hover {
         color: #D4AF37;
         background-color: #0052cc;
         border: 2px #D4AF37 solid;
@@ -267,7 +267,7 @@
             height: 500px;
             margin: 0px;
         }
-        button {
+        .button {
           display: flex;
           position: absolute;
           justify-content: center;
@@ -288,7 +288,7 @@
           width: 60px;
           height: 60px;
         }
-        button:hover {
+        .button:hover {
           color: #D4AF37;
           background-color: #0052cc;
           border: 2px #D4AF37 solid;
