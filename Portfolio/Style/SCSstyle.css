@@ -172,7 +172,7 @@ body {
   background-color: #0052cc;
 }
 
-.MainTXT button {
+.MainTXT .button {
   display: none;
 }
 
@@ -269,7 +269,7 @@ body {
     margin-top: 0;
     padding: 0;
   }
-  .MainTXT button {
+  .MainTXT .button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -286,7 +286,7 @@ body {
     margin-left: 10px;
     margin-top: -25px;
   }
-  .MainTXT button .fas {
+  .MainTXT .button .fas {
     margin-top: 15px;
   }
   .MainTXT a {
@@ -294,7 +294,7 @@ body {
     width: 60px;
     height: 60px;
   }
-  .MainTXT button:hover {
+  .MainTXT .button:hover {
     color: #D4AF37;
     background-color: #0052cc;
     border: 2px #D4AF37 solid;
@@ -363,7 +363,7 @@ body {
             flex-direction: column;
     margin-top: 0;
   }
-  .MainTXT button {
+  .MainTXT .button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -382,7 +382,7 @@ body {
     border-radius: 3px;
     margin-top: -50px;
   }
-  .MainTXT button .fas {
+  .MainTXT .button .fas {
     margin-left: 10px;
   }
   .MainTXT a {
@@ -390,7 +390,7 @@ body {
     width: 60px;
     height: 60px;
   }
-  .MainTXT button:hover {
+  .MainTXT .button:hover {
     color: #D4AF37;
     background-color: #0052cc;
     border: 2px #D4AF37 solid;

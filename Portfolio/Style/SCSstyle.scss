@@ -151,7 +151,7 @@
     border-top: 2px solid #D4AF37;
     border-bottom: 2px solid #D4AF37;
     background-color: #0052cc;
-    button {
+    .button {
       display: none;
     }
     h1 {
@@ -230,7 +230,7 @@
       flex-wrap: wrap;
       margin-top: 0;
       padding: 0;
-      button {
+      .button {
         display: flex;
         justify-content: center;
         width: 60px;
@@ -251,7 +251,7 @@
         width: 60px;
         height: 60px;
       }
-      button:hover {
+      .button:hover {
         color: #D4AF37;
         background-color: #0052cc;
         border: 2px #D4AF37 solid;
@@ -312,7 +312,7 @@
       height: 1200px;
       flex-direction: column;
       margin-top: 0;
-      button {
+      .button {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -332,7 +332,7 @@
         width: 60px;
         height: 60px;
       }
-      button:hover {
+      .button:hover {
         color: #D4AF37;
         background-color: #0052cc;
         border: 2px #D4AF37 solid;
