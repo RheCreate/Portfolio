@@ -362,6 +362,28 @@
 
 }
 
+//Desktop Media Queries
+
+
+@media (min-width: 1242px) and (max-width: 1799.98px) {
+
+    .IntroSection {
+        margin-left: 255px;
+        min-width: 100%;
+        height: 900px; 
+        justify-content: center;
+        border-left: 1px solid #D4AF37;
+      }
+      .BannerImage {
+          width: 100%;
+          height: 900px;
+          margin: auto;
+      }
+      .button {
+        display: none;
+      }
+}
+
 
   // Project Tiles Section
 
@@ -517,6 +539,36 @@
         }
         .PPic {
             width: 400px;
+        }
+    }
+    }
+ }
+
+ //Desktop Media Queries
+
+ @media (min-width: 1242px) and (max-width: 1799.98px) {
+
+    .ProjectSection {
+        width: 100%;
+        height: 100%;
+        margin-left: 250px;
+        justify-content: center;
+        border-left: none;
+    }
+    .ProjectInner {
+        max-width: 100%;
+        height: 100%;
+        flex-direction: row;
+        border-bottom: none;
+        justify-content: space-evenly;
+    .PBox {
+        width: 450px;
+        margin-top: 15px;
+        .ImageBox {
+            width: 450px;
+        }
+        .PPic {
+            width: 450px;
         }
     }
     }
@@ -755,6 +807,51 @@ input[type=text], select, textarea {
     }
  }
 
+ 
+ //Desktop Media Queries
+
+ @media (min-width: 1242px) and (max-width: 1799.98px) {
+
+    .FormSection {
+        width: 100%;
+        height: 800px;
+        margin-left: 250px;
+        justify-content: flex-start;
+        border-top: 1px solid #D4AF37;
+        margin-top: 100px;
+        border-left: none;
+    }
+    .FormInner {
+        width: 95%;
+        height: 950px;
+        flex-direction: column;
+        margin-top: 0;
+        border-bottom: none;
+        padding-top: 25px;
+        .FormTXTbox {
+            width: 75%;
+            margin-top: 0;
+            margin-left: 15px;
+            h2 {
+                font-size: 60px;
+            }
+            p {
+                font-size: 25px;
+
+            }
+            .fas {
+                visibility: hidden;
+            }
+        }
+        Form {
+            width: 100%;
+            margin-left: 15px;
+            margin-top: -90px;
+            padding-bottom: 50px;
+        }
+    }
+ }
+
 
   // Back to top section 
 
@@ -810,6 +907,27 @@ input[type=text], select, textarea {
         display: none;
     }
 }
+
+//Desktop Media Queries
+
+@media (min-width: 1242px) and (max-width: 1799.98px) {
+
+    .BackTop {
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        margin-left: 250px;
+        border-left: 1px solid #D4AF37;
+        background-color: #0052cc;
+        margin-top: 135px;
+            .fas {
+                display: none;
+            }
+            .TopTXT {
+                display: none;
+              }
+        }
+ }
 
  
 
