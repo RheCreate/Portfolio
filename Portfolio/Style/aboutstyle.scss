@@ -56,6 +56,12 @@
   .socialmedia a:hover {
     border: none;
   }
+
+  @media (max-width: 479.98px) {
+    .sidenav {
+display: none;
+    }
+  }
   
   @media (min-width: 480px) and (max-width: 767.98px) {
        .sidenav {
@@ -111,7 +117,7 @@
       color: #D4AF37;
     }
     .socialmedia {
-      padding-top: 5px;
+      padding-top: 3px;
     }
   }
 
@@ -248,6 +254,97 @@
 
   // Smaller sized devices media queries
 
+  @media (max-width: 479.98px) {
+    
+      .AboutSection {
+        width: 100%;
+        padding: none;
+        border-left: none;
+        margin-left: 0;
+      }
+      .AboutInner {
+        max-width: 100%;
+        height: 2000px;
+        flex-direction: column;
+        margin-top: 0;
+        .button {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          background-color: #000066;
+          color: #D4AF37;
+          border: 2px #D4AF37 solid;
+          border-radius: 3px;
+          top: 0;
+          left: 16px;
+            .fas {
+            margin-left: 15px;
+          }
+        }
+        a {
+          text-decoration: none;
+          width: 60px;
+          height: 60px;
+        }
+        .button:hover {
+          color: #D4AF37;
+          background-color: #0052cc;
+          border: 2px #D4AF37 solid;
+        }
+        .AboutTitle {
+          margin-bottom: 1700px;
+          padding-left: 10px;  
+        }
+        .Beginning {
+          width: 100%;
+          margin-top: -300px;
+          .BTXT {
+            width: 225px;
+            font-size: 12px;
+            height: 450px;
+            h3 {
+              margin-left: 65px;
+            }
+            li {
+              margin-left: 0;
+            }
+          }
+          .FrameTXT1 {
+            width: 350px;
+          }
+        }
+        .Middle {
+          width: 100%;
+          .FramePIC {
+            width: 350px;
+            height: 400px;
+          }
+          .Profile {
+            width: 225px;
+            height: 300px;
+            margin-top: 50px;
+            margin-left: -10px;
+          }
+        }
+        .End {
+          width: 100%;
+          margin-top: -225px;
+          margin-bottom: -300px;
+          .ETXT {
+            width: 260px;
+            font-size: 14px;
+            height: 535px;
+          }
+          .FrameTXT2 {
+            width: 350px;
+          }
+        }
+      }
+  }
+
   @media (min-width: 480px) and (max-width: 767.98px) {
     .AboutSection {
       width: 100%;
@@ -256,7 +353,7 @@
       margin-left: 0;
     }
     .AboutInner {
-      max-width: 75%;
+      max-width: 100%;
       height: 2000px;
       flex-direction: column;
       margin-top: 0;
@@ -264,15 +361,17 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        position: absolute;
         width: 60px;
         height: 60px;
         background-color: #000066;
         color: #D4AF37;
         border: 2px #D4AF37 solid;
         border-radius: 3px;
-        margin-top: -475px;
-        .fas {
-          margin-left: 10px;
+        top: 0;
+        left: 16px;
+          .fas {
+          margin-left: 15px;
         }
       }
       a {
@@ -347,7 +446,7 @@
       margin-left: 0;
     }
     .AboutInner {
-      max-width: 90%;
+      max-width: 100%;
       height: 2500px;
       flex-direction: column;
       margin-top: 0;
@@ -355,15 +454,17 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        position: absolute;
         width: 60px;
         height: 60px;
         background-color: #000066;
         color: #D4AF37;
         border: 2px #D4AF37 solid;
         border-radius: 3px;
-        margin-top: -195px;
+        top: 0;
+        left: 16px;
         .fas {
-          margin-left: 10px;
+          margin-left: 15px;
         }
       }
       a {
@@ -428,4 +529,60 @@
         margin-top: 150px;
       }
     }
+  }
+
+  //Desktop Media Queries
+
+@media (min-width: 1242px) and (max-width: 1799.98px) {
+  .AboutSection {
+    width: 100%;
+    padding: none;
+    border-left: none;
+    margin-left: 250px;
+  } 
+  .AboutInner {
+    width: 90%;
+    margin-top: 75px;
+    .button {
+      display: none;
+    }
+    .Beginning {
+      width: 100%;
+      height: 500px;
+      margin-top: 200px;
+    .BTXT {
+      width: 20%;
+      height: 50%;
+    }
+    .FrameTXT1 {
+      width: 100%;
+    }
+   }
+    .Middle {
+      width: 100%;
+      height: 700px;
+      margin-top: 250px;
+      .Profile {
+        width: 200px;
+        height: 300px;
+        margin-top: 75px;       
+      }     
+      .FramePIC {
+        width: 375px;
+        height: 450px;
+      }
+    }
+    .End {
+      width: 100%;
+      height: 500px;
+      margin-top: 200px;
+    .ETXT {
+      width: 25%;
+      height: 65%;
+    }
+    .FrameTXT2 {
+      width: 100%;
+    }
+    }
+  }
   }
