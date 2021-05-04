@@ -143,7 +143,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-left: 1px solid #D4AF37;
 }
 
 .BannerImage {
@@ -647,6 +646,9 @@ body {
   max-width: 1730px;
   height: 650px;
   border-left: 1px solid #D4AF37;
+  background-color: white;
+  -webkit-box-shadow: inset 35px 35px 35px -35px #ccf2ff;
+          box-shadow: inset 35px 35px 35px -35px #ccf2ff;
 }
 
 .FormInner {
@@ -665,6 +667,9 @@ body {
   font-family: 'Poiret One';
   font-weight: 600;
   color: #D4AF37;
+  background-color: white;
+  -webkit-box-shadow: inset 35px 35px 35px -35px #ccf2ff;
+          box-shadow: inset 35px 35px 35px -35px #ccf2ff;
 }
 
 .FormInner .FormTXTbox {

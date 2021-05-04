@@ -136,7 +136,6 @@
     max-width: 1730px;
     height: 968px; 
     justify-content: center;
-    border-left: 1px solid #D4AF37;
   }
   .BannerImage {
       width: 1730px;
@@ -586,6 +585,8 @@
     max-width: 1730px;
     height: 650px; 
     border-left: 1px solid #D4AF37;
+    background-color: white;
+    box-shadow: inset 35px 35px 35px -35px #ccf2ff;
 }
 
 .FormInner {
@@ -598,6 +599,8 @@
       font-family: 'Poiret One';
       font-weight: 600;
       color: #D4AF37;
+      background-color: white;
+      box-shadow: inset 35px 35px 35px -35px #ccf2ff;
       .FormTXTbox {
           width: 450px;
           letter-spacing: 0.4px;
