@@ -116,7 +116,7 @@
       color: #D4AF37;
     }
     .socialmedia {
-      padding-top: 5px;
+      padding-top: 3px;
     }
   }
 
@@ -332,9 +332,12 @@
     .IntroText {
         max-width: 150%;
         height: 800px;
-        margin-top: 100px;
+        margin-top: 150px;
         h1 {
             font-size: 120px;
+        }
+        p {
+            line-height: 65px;
         }
       }
     }
@@ -500,7 +503,7 @@
         border-left: none;
     }
     .ProjectInner {
-        max-width: 75%;
+        max-width: 85%;
         height: 1500px;
         flex-direction: row;
         border-bottom: none;
@@ -676,6 +679,7 @@ input[type=text], select, textarea {
         margin-left: 0px;
         justify-content: flex-start;
         border-top: 1px solid #D4AF37;
+        border-left: none;
     }
     .FormInner {
         width: 100%;
@@ -718,6 +722,7 @@ input[type=text], select, textarea {
         justify-content: flex-start;
         border-top: 1px solid #D4AF37;
         margin-top: 100px;
+        border-left: none;
     }
     .FormInner {
         width: 100%;
