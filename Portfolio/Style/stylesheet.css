@@ -267,11 +267,10 @@ body {
     margin-top: 100px;
   }
   .IntroText h1 {
-    font-size: 75px;
-    line-height: 75px;
+    font-size: 50px;
   }
   .IntroText p {
-    font-size: 40px;
+    font-size: 30px;
   }
   .IntroScroll .fas {
     margin-left: 45px;
