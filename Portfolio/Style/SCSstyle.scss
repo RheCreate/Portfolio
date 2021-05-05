@@ -55,6 +55,12 @@
   .socialmedia a:hover {
     border: none;
   }
+
+  @media (max-width: 479.98px) {
+    .sidenav {
+      display: none;
+    }
+  }
   
   @media (min-width: 480px) and (max-width: 767.98px) {
     .sidenav {
@@ -79,8 +85,7 @@
   }
   .SideLetter {
     font-size: 20px;
-    margin-left: 25px;
-    margin-left: 25px;
+    margin-left: 5px;
     display: flex;
     padding-top: 10px;
     padding-bottom: 0;
@@ -112,7 +117,7 @@
     color: #D4AF37;
   }
   .socialmedia {
-    padding-top: 5px;
+    padding-top: 3px;
   }
 }
 
@@ -214,6 +219,100 @@
 
         // Smaller sized devices media queries
 
+        @media (max-width: 479.98px) {
+          .MainSection {
+            width: 100%;
+            padding: none;
+            border-left: none;
+            margin-left: 0px;
+          }
+          .Inner {
+            max-width: 100%;
+            height: 1800px;
+            flex-direction: column;
+            margin-top: 0;
+            padding: 0;
+            .button {
+              display: flex;
+              justify-content: center;
+              position: absolute;
+              width: 60px;
+              height: 60px;
+              background-color: #000066;
+              color: #D4AF37;
+              border: 2px #D4AF37 solid;
+              border-radius: 3px;
+              top: 0px;
+              .fas {
+                margin-top: 15px;
+              }
+            }
+            a {
+              text-decoration: none;
+              width: 60px;
+              height: 60px;
+            }
+            .button:hover {
+              color: #D4AF37;
+              background-color: #0052cc;
+              border: 2px #D4AF37 solid;
+            }
+            .Top {
+              width: 100%;
+              margin-top: -100px;
+              margin-left: 10px;
+            }
+            h1 {
+              font-size: 40px;
+              margin-left: 10px;
+              margin-bottom: 0px;
+              line-height: 35px;
+            }
+            .SCSP{
+              text-align: left;
+              margin-left: 0px;
+              width: 90%;
+            }
+            .PicContainer {
+              width: 80%;
+              margin-top: 0px;
+              margin-left: 25px;
+              .Picture {
+                width: 100%;
+              }
+            }
+            .bottom1 {
+              width: 90%;
+              margin-left: 10px;
+            }
+            .bottom2 {
+              width: 90%;
+              margin-left: 10px;
+            }
+            h4 {
+              margin-left: 10px;
+              font-size: 35px;
+            }
+            .Treehouse {
+              margin-left: 150px;
+              margin-top: 35px;
+            }
+              p {
+                font-size: 15px;
+            }
+          }
+
+
+
+
+
+
+
+
+
+        }
+
+
   @media (min-width: 480px) and (max-width: 767.98px) {
     .MainSection {
       width: 100%;
@@ -222,16 +321,15 @@
       margin-left: 0px;
     }
     .Inner {
-      max-width: 75%;
-      height: 100%;
+      max-width: 100%;
       height: 1500px;
       flex-direction: column;
-      flex-wrap: wrap;
       margin-top: 0;
       padding: 0;
       .button {
         display: flex;
         justify-content: center;
+        position: absolute;
         width: 60px;
         height: 60px;
         background-color: #000066;
@@ -239,8 +337,6 @@
         border: 2px #D4AF37 solid;
         border-radius: 3px;
         top: 0px;
-        margin-left: 10px;
-        margin-top: -25px;
         .fas {
           margin-top: 15px;
         }
@@ -257,9 +353,8 @@
       }
       .Top {
         width: 100%;
-        flex-direction: column;
-        margin-top: -50px;
-        margin-bottom: 70px;
+        margin-top: -100px;
+        margin-left: 10px;
       }
       h1 {
         font-size: 40px;
@@ -272,17 +367,15 @@
         margin-left: 0px;
         width: 90%;
       }
-      .Picture {
-        position: absolute;
-        margin-left: 10px;
-        width: 300px;
-        margin-bottom: 0;
-        margin-top: 0;
+      .PicContainer {
+        margin-top: 0px;
+        margin-left: 25px;
       }
-      .bottom {
-        width: 90%;
-        flex-direction: column;
-        margin-top: 100px;
+      .bottom1 {
+        margin-left: 10px;
+      }
+      .bottom2 {
+        margin-left: 10px;
       }
       h4 {
         margin-left: 10px;
@@ -290,7 +383,7 @@
       }
       .Treehouse {
         margin-left: 150px;
-        margin-top: 25px;
+        margin-top: 35px;
       }
         p {
           font-size: 15px;
@@ -307,23 +400,24 @@
       margin-left: 0;
     }
     .Inner {
-      max-width: 90%;
-      height: 1200px;
+      max-width: 100%;
+      height: 1500px;
       flex-direction: column;
       margin-top: 0;
       .button {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        position: absolute;
         width: 60px;
         height: 60px;
         background-color: #000066;
         color: #D4AF37;
         border: 2px #D4AF37 solid;
         border-radius: 3px;
-        margin-top: -50px;
+        top: 0;
         .fas {
-          margin-left: 10px;
+          margin-left: 15px;
         }
       }
       a {
@@ -338,9 +432,8 @@
       }
       .Top {
         width: 100%;
-        flex-direction: column;
         margin-top: -100px;
-        margin-bottom: 70px;
+        margin-left: 25px;
       }
       h1 {
         font-size: 40px;
@@ -353,17 +446,15 @@
         margin-left: 0px;
         width: 90%;
       }
-      .Picture {
-        position: absolute;
-        margin-left: 10px;
-        width: 300px;
-        margin-bottom: 0;
-        margin-top: 0;
+      .PicContainer {
+        margin-top: 0px;
+        margin-left: 25px;
       }
-      .bottom {
-        width: 90%;
-        flex-direction: column;
-        margin-top: 125px;
+      .bottom1 {
+        margin-left: 25px;
+      }
+      .bottom2 {
+        margin-left: 25px;
       }
       h4 {
         margin-left: 10px;
@@ -371,7 +462,7 @@
       }
       .Treehouse {
         margin-left: 150px;
-        margin-top: 25px;
+        margin-top: 35px;
       }
         p {
           font-size: 15px;
@@ -390,46 +481,46 @@
       margin-left: 0px;
     }
     .Inner {
-      max-width: 90%;
-      height: 900px;
-      flex-direction: column;
+      max-width: 100%;
+      height: 1100px;
+      flex-direction: row;
       margin-top: 25px;
       padding-bottom: 0px;
       overflow: hidden;
       .Top {
-        width: 100%;
-        margin-top: -75px;
-        margin-bottom: 0px;
-        flex-direction: row;
+        width:50%;
+        margin-left: -80px;
+        margin-top: 50px;
       }
       h1 {
         width: 100%;
         margin-left: 10px;
-        margin-bottom: 25px;
+        
         line-height: 65px;
       }
       .SCSP{
-        text-align: left;
-        margin-left: 0px;
         width: 100%;
       }
-      .Picture {
-        display: none;
+      .PicContainer {
+      margin-top: 150px;
       }
       .bottom {
         width: 100%;
         margin-top: 0px;
       }
       .bottom1 {
-        width: 55%;
+        width: 40%;
         padding-right: 10px;
+      }
+      .bottom2 {
+        width: 40%;
       }
       h4 {
         margin-left: 10px;
       }
       .Treehouse {
         margin-left: 200px;
-        margin-top: 50px;
+        margin-top: 70px;
       }
       p {
         font-size: 18px;
