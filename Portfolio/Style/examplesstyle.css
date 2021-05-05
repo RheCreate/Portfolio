@@ -61,6 +61,12 @@
   border: none;
 }
 
+@media (max-width: 479.98px) {
+  .sidenav {
+    display: none;
+  }
+}
+
 @media (min-width: 480px) and (max-width: 767.98px) {
   .sidenav {
     display: none;
@@ -124,7 +130,7 @@
     color: #D4AF37;
   }
   .socialmedia {
-    padding-top: 5px;
+    padding-top: 3px;
   }
 }
 
@@ -161,12 +167,68 @@ body {
   width: 1500px;
   height: 850px;
   margin-top: 35px;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
   border-top: 2px solid #D4AF37;
   border-bottom: 2px solid #D4AF37;
+}
+
+@media (max-width: 479.98px) {
+  .MainSection {
+    width: 100%;
+    height: 100%;
+    padding: none;
+    border-left: none;
+    margin-left: 0;
+  }
+  .SectionInner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 75%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .SectionInner .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #000066;
+    color: #D4AF37;
+    border: 2px #D4AF37 solid;
+    border-radius: 3px;
+    top: 0;
+  }
+  .SectionInner .button .fas {
+    margin-top: 15px;
+  }
+  .SectionInner a {
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+  }
+  .SectionInner .button:hover {
+    color: #D4AF37;
+    background-color: #0052cc;
+    border: 2px #D4AF37 solid;
+  }
+  .SectionInner .Pvid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 75%;
+    margin-top: -250px;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 767.98px) {
@@ -197,12 +259,14 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    position: absolute;
     width: 60px;
     height: 60px;
     background-color: #000066;
     color: #D4AF37;
     border: 2px #D4AF37 solid;
     border-radius: 3px;
+    top: 0;
   }
   .SectionInner .button .fas {
     margin-top: 15px;
@@ -222,7 +286,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    margin-top: 0;
+    height: 75%;
+    margin-top: -150px;
   }
 }
 
@@ -261,9 +326,11 @@ body {
     color: #D4AF37;
     border: 2px #D4AF37 solid;
     border-radius: 3px;
+    position: absolute;
+    top: 0;
   }
   .SectionInner .button .fas {
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .SectionInner a {
     text-decoration: none;
@@ -280,27 +347,51 @@ body {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    margin-top: 0;
+    height: 100%;
+    margin-top: -150px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1241.98px) {
   .MainSection {
     width: 100%;
-    height: 100%;
     padding: none;
     border-left: none;
     margin-left: 0;
   }
   .SectionInner {
-    max-width: 75%;
+    max-width: 90%;
+    height: 650px;
+    margin-top: 150px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .SectionInner .Pvid {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     width: 100%;
-    margin-top: 0;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 1242px) and (max-width: 1799.98px) {
+  .MainSection {
+    height: 850px;
+    width: 100%;
+    padding: none;
+    border-left: none;
+    margin-left: 250px;
+  }
+  .SectionInner {
+    max-width: 90%;
+    height: 800px;
+    margin-top: 150px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .SectionInner .Pvid {
+    width: 90%;
+    margin-bottom: 50px;
   }
 }
 /*# sourceMappingURL=examplesstyle.css.map */
