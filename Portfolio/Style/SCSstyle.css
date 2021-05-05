@@ -147,54 +147,58 @@ body {
   border-left: 1px solid #D4AF37;
 }
 
-.MainTXT {
+.Inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 1500px;
   height: 866px;
-  letter-spacing: 0.4px;
-  line-height: 25px;
   margin-top: 35px;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
   border-top: 2px solid #D4AF37;
   border-bottom: 2px solid #D4AF37;
   background-color: #0052cc;
 }
 
-.MainTXT .button {
+.Inner .button {
   display: none;
 }
 
-.MainTXT h1 {
+.Inner .Top {
+  width: 750px;
+  margin-left: -200px;
+}
+
+.Inner .Top h1 {
   font-family: 'Sacramento';
   color: #D4AF37;
   font-size: 65px;
   text-align: left;
-  margin-left: 100px;
+  margin-left: 0px;
   margin-bottom: 0px;
+  letter-spacing: 0.4px;
+  line-height: 25px;
 }
 
-.MainTXT .Picture {
-  position: absolute;
+.Inner .PicContainer {
+  margin-top: 80px;
+}
+
+.Inner .PicContainer .Picture {
   width: 340px;
-  height: 240px;
-  margin-left: 1100px;
-  margin-top: -220px;
+  height: 260px;
   border-radius: 3px;
 }
 
-.MainTXT .bottom {
+.Inner .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,14 +211,14 @@ body {
           justify-content: space-evenly;
 }
 
-.MainTXT h4 {
+.Inner h4 {
   font-family: 'Sacramento';
   color: #D4AF37;
   font-size: 50px;
   text-align: left;
 }
 
-.MainTXT .Treehouse {
+.Inner .Treehouse {
   width: 50px;
   height: 50px;
   margin-left: 200px;
@@ -222,30 +226,26 @@ body {
   position: absolute;
 }
 
-.MainTXT .SCSP {
-  text-align: left;
-  margin-left: 100px;
-  width: 900px;
-}
-
-.MainTXT p {
+.Inner p {
   font-family: 'Poiret One';
   font-weight: 600;
   color: white;
   text-align: left;
   padding-left: 10px;
   font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 25px;
 }
 
-.MainTXT p span {
+.Inner p span {
   color: #5cd65c;
 }
 
-.MainTXT p a {
+.Inner p a {
   color: #5cd65c;
 }
 
-.MainTXT p a:hover {
+.Inner p a:hover {
   color: #66ff66;
 }
 
@@ -256,7 +256,7 @@ body {
     border-left: none;
     margin-left: 0px;
   }
-  .MainTXT {
+  .Inner {
     max-width: 75%;
     height: 100%;
     height: 1500px;
@@ -269,7 +269,7 @@ body {
     margin-top: 0;
     padding: 0;
   }
-  .MainTXT .button {
+  .Inner .button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -286,20 +286,20 @@ body {
     margin-left: 10px;
     margin-top: -25px;
   }
-  .MainTXT .button .fas {
+  .Inner .button .fas {
     margin-top: 15px;
   }
-  .MainTXT a {
+  .Inner a {
     text-decoration: none;
     width: 60px;
     height: 60px;
   }
-  .MainTXT .button:hover {
+  .Inner .button:hover {
     color: #D4AF37;
     background-color: #0052cc;
     border: 2px #D4AF37 solid;
   }
-  .MainTXT .Top {
+  .Inner .Top {
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -308,25 +308,25 @@ body {
     margin-top: -50px;
     margin-bottom: 70px;
   }
-  .MainTXT h1 {
+  .Inner h1 {
     font-size: 40px;
     margin-left: 10px;
     margin-bottom: 0px;
     line-height: 35px;
   }
-  .MainTXT .SCSP {
+  .Inner .SCSP {
     text-align: left;
     margin-left: 0px;
     width: 90%;
   }
-  .MainTXT .Picture {
+  .Inner .Picture {
     position: absolute;
     margin-left: 10px;
     width: 300px;
     margin-bottom: 0;
     margin-top: 0;
   }
-  .MainTXT .bottom {
+  .Inner .bottom {
     width: 90%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -334,15 +334,15 @@ body {
             flex-direction: column;
     margin-top: 100px;
   }
-  .MainTXT h4 {
+  .Inner h4 {
     margin-left: 10px;
     font-size: 35px;
   }
-  .MainTXT .Treehouse {
+  .Inner .Treehouse {
     margin-left: 150px;
     margin-top: 25px;
   }
-  .MainTXT p {
+  .Inner p {
     font-size: 15px;
   }
 }
@@ -354,7 +354,7 @@ body {
     border-left: none;
     margin-left: 0;
   }
-  .MainTXT {
+  .Inner {
     max-width: 90%;
     height: 1200px;
     -webkit-box-orient: vertical;
@@ -363,7 +363,7 @@ body {
             flex-direction: column;
     margin-top: 0;
   }
-  .MainTXT .button {
+  .Inner .button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -382,20 +382,20 @@ body {
     border-radius: 3px;
     margin-top: -50px;
   }
-  .MainTXT .button .fas {
+  .Inner .button .fas {
     margin-left: 10px;
   }
-  .MainTXT a {
+  .Inner a {
     text-decoration: none;
     width: 60px;
     height: 60px;
   }
-  .MainTXT .button:hover {
+  .Inner .button:hover {
     color: #D4AF37;
     background-color: #0052cc;
     border: 2px #D4AF37 solid;
   }
-  .MainTXT .Top {
+  .Inner .Top {
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -404,25 +404,25 @@ body {
     margin-top: -100px;
     margin-bottom: 70px;
   }
-  .MainTXT h1 {
+  .Inner h1 {
     font-size: 40px;
     margin-left: 10px;
     margin-bottom: 0px;
     line-height: 35px;
   }
-  .MainTXT .SCSP {
+  .Inner .SCSP {
     text-align: left;
     margin-left: 0px;
     width: 90%;
   }
-  .MainTXT .Picture {
+  .Inner .Picture {
     position: absolute;
     margin-left: 10px;
     width: 300px;
     margin-bottom: 0;
     margin-top: 0;
   }
-  .MainTXT .bottom {
+  .Inner .bottom {
     width: 90%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -430,15 +430,15 @@ body {
             flex-direction: column;
     margin-top: 125px;
   }
-  .MainTXT h4 {
+  .Inner h4 {
     margin-left: 10px;
     font-size: 35px;
   }
-  .MainTXT .Treehouse {
+  .Inner .Treehouse {
     margin-left: 150px;
     margin-top: 25px;
   }
-  .MainTXT p {
+  .Inner p {
     font-size: 15px;
   }
 }
@@ -450,7 +450,7 @@ body {
     border-left: none;
     margin-left: 0px;
   }
-  .MainTXT {
+  .Inner {
     max-width: 90%;
     height: 900px;
     -webkit-box-orient: vertical;
@@ -461,7 +461,7 @@ body {
     padding-bottom: 0px;
     overflow: hidden;
   }
-  .MainTXT .Top {
+  .Inner .Top {
     width: 100%;
     margin-top: -75px;
     margin-bottom: 0px;
@@ -470,36 +470,36 @@ body {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .MainTXT h1 {
+  .Inner h1 {
     width: 100%;
     margin-left: 10px;
     margin-bottom: 25px;
     line-height: 65px;
   }
-  .MainTXT .SCSP {
+  .Inner .SCSP {
     text-align: left;
     margin-left: 0px;
     width: 100%;
   }
-  .MainTXT .Picture {
+  .Inner .Picture {
     display: none;
   }
-  .MainTXT .bottom {
+  .Inner .bottom {
     width: 100%;
     margin-top: 0px;
   }
-  .MainTXT .bottom1 {
+  .Inner .bottom1 {
     width: 55%;
     padding-right: 10px;
   }
-  .MainTXT h4 {
+  .Inner h4 {
     margin-left: 10px;
   }
-  .MainTXT .Treehouse {
+  .Inner .Treehouse {
     margin-left: 200px;
     margin-top: 50px;
   }
-  .MainTXT p {
+  .Inner p {
     font-size: 18px;
   }
 }
