@@ -574,4 +574,58 @@ body {
     font-size: 18px;
   }
 }
+
+@media (min-width: 1242px) and (max-width: 1799.98px) {
+  .MainSection {
+    width: 100%;
+    padding: none;
+    border-left: none;
+    margin-left: 250px;
+  }
+  .Inner {
+    width: 90%;
+    height: 1000px;
+    margin-top: 50px;
+  }
+  .Inner .button {
+    display: none;
+  }
+  .Inner .Top {
+    width: 50%;
+    margin-left: -100px;
+    margin-top: 0px;
+  }
+  .Inner h1 {
+    width: 100%;
+    margin-left: 10px;
+    line-height: 65px;
+  }
+  .Inner .SCSP {
+    width: 100%;
+  }
+  .Inner .PicContainer {
+    margin-top: 100px;
+  }
+  .Inner .bottom {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .Inner .bottom1 {
+    width: 40%;
+    padding-right: 10px;
+  }
+  .Inner .bottom2 {
+    width: 40%;
+  }
+  .Inner h4 {
+    margin-left: 10px;
+  }
+  .Inner .Treehouse {
+    margin-left: 200px;
+    margin-top: 70px;
+  }
+  .Inner p {
+    font-size: 18px;
+  }
+}
 /*# sourceMappingURL=SCSstyle.css.map */
