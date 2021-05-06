@@ -185,7 +185,7 @@ body {
   mix-blend-mode: difference;
 }
 
-.IntroText p {
+.IntroText h2 {
   font-size: 80px;
   color: white;
   mix-blend-mode: difference;
@@ -269,7 +269,7 @@ body {
   .IntroText h1 {
     font-size: 50px;
   }
-  .IntroText p {
+  .IntroText h2 {
     font-size: 30px;
   }
   .IntroScroll .fas {
@@ -331,7 +331,7 @@ body {
   .IntroText h1 {
     font-size: 75px;
   }
-  .IntroText p {
+  .IntroText h2 {
     font-size: 40px;
   }
   .IntroScroll .fas {
@@ -393,7 +393,7 @@ body {
   .IntroText h1 {
     font-size: 75px;
   }
-  .IntroText p {
+  .IntroText h2 {
     font-size: 40px;
   }
   .IntroScroll .fas {
@@ -424,7 +424,7 @@ body {
   .IntroSection .IntroText h1 {
     font-size: 120px;
   }
-  .IntroSection .IntroText p {
+  .IntroSection .IntroText h2 {
     line-height: 65px;
   }
   .IntroScroll {
