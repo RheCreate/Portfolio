@@ -500,7 +500,6 @@ body {
   max-width: 1550px;
   height: 1230px;
   margin-top: 40px;
-  border-bottom: 1px solid #D4AF37;
 }
 
 .ProjectInner .PBox {
@@ -788,8 +787,6 @@ body {
   font-weight: 600;
   color: #D4AF37;
   background-color: white;
-  -webkit-box-shadow: inset 35px 35px 35px -35px #ccf2ff;
-          box-shadow: inset 35px 35px 35px -35px #ccf2ff;
 }
 
 .FormInner .FormTXTbox {
