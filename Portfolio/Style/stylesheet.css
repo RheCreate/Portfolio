@@ -205,10 +205,9 @@ body {
 }
 
 .IntroScroll .fas {
-  color: white;
+  color: #0052cc;
   margin-left: 55px;
   padding-top: 5px;
-  mix-blend-mode: difference;
 }
 
 .ScrollTXT {
