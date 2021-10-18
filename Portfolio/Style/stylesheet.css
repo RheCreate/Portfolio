@@ -210,6 +210,10 @@ body {
   padding-top: 5px;
 }
 
+.IntroScroll .fas:hover {
+  color: #D4AF37;
+}
+
 .ScrollTXT {
   font-family: 'Poiret One';
   font-size: 25px;
