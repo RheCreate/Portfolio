@@ -549,8 +549,14 @@ body {
   color: #D4AF37;
 }
 
+.ProjectInner .PBox .ProjectTXT h4 {
+  font-size: 12px;
+  margin-top: -10px;
+}
+
 .ProjectInner .PBox .ProjectTXT .Under {
   font-weight: 600;
+  color: #D4AF37;
 }
 
 .ProjectInner .PBox .ProjectTXT .Under:hover {
