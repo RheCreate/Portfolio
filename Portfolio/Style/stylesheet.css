@@ -554,7 +554,7 @@ body {
 }
 
 .ProjectInner .PBox .ProjectTXT .Under:hover {
-  text-decoration: underline;
+  font-size: 120%;
 }
 
 .ProjectInner a {
