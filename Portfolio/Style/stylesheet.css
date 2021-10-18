@@ -271,6 +271,9 @@ body {
   .IntroText h2 {
     font-size: 30px;
   }
+  .IntroScroll {
+    margin-bottom: 20px;
+  }
   .IntroScroll .fas {
     margin-left: 45px;
   }
@@ -394,6 +397,9 @@ body {
   }
   .IntroText h2 {
     font-size: 40px;
+  }
+  .IntroScroll {
+    margin-bottom: 20px;
   }
   .IntroScroll .fas {
     margin-left: 45px;
