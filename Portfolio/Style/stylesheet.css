@@ -414,53 +414,6 @@ body {
   .ScrollTXT {
     font-size: 20px;
   }
-  .Menu {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #333645;
-    overflow-x: hidden;
-    padding-top: 5px;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    display: block;
-  }
-  .Menu ul {
-    list-style-type: none;
-    text-align: left;
-  }
-  .Menu ul .Smenu {
-    width: 333px;
-    height: 56px;
-    font-size: 16px;
-    margin-left: -40px;
-    padding-left: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-  }
-  .Menu .Menu a {
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    letter-spacing: 0.4px;
-    background: transparent;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-  .Menu .Menu .closebtn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 30px;
-    font-size: 15px;
-  }
-  .Menu #bodymain {
-    -webkit-transition: margin-right .5s;
-    transition: margin-right .5s;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1241.98px) {
