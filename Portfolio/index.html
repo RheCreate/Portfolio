@@ -5,7 +5,6 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width,initial-scale=1">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <link href="Style/SideNav.scss">
    <link rel="stylesheet" href="Style/stylesheet.css">
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
@@ -46,9 +45,13 @@
   
   <div class="IntroSection" id="Top">
       <img src="Images/Clouds-Wallpaper.jpg" alt="Clouds" class="BannerImage">
-      <a href="#">
-        <div class="button"><i class="fa fas fa-bars fa-2x"></i></div>
-        </a>
+      
+        <div class="button">
+          <span onclick="openNav()">
+                      <i class="fa fas fa-bars fa-2x"></i>
+          </span>
+        </div>
+        
       <div class="IntroText">
          <h1>Rhian Murray</h1>
          <h2>
@@ -169,6 +172,7 @@
 </div>
 
 <script src="JS/Type.js"></script>
+
 </body>
 
 <div id="Menu" class="Menu">
@@ -181,5 +185,6 @@
      <li class="Smenu"><a href="#FormLink">Contact Me</a></li>
     </ul>
   </div>
-  
+
+
     </html>
