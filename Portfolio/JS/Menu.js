@@ -1,6 +1,6 @@
 function openNav() {
-    document.getElementById("Menu").style.width = "333px";
-    document.getElementById("bodymain").style.marginRight = "333px";
+    document.getElementById("Menu").style.width = "50%";
+    document.getElementById("bodymain").style.marginRight = "0px";
   }
   
   function closeNav() {
