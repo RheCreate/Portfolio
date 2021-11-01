@@ -55,6 +55,8 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  font-size: 30px;
+  color: #0052cc;
 }
 
 .socialmedia a:hover {
