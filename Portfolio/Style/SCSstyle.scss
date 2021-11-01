@@ -22,13 +22,18 @@
     margin-left: 105px;
   }
 
+  .SideLetter a {
+    text-decoration: none;
+    color: #0052cc;
+  }
+
   .SideLine {
       width: 250px;
       height: 2px;
       background: radial-gradient(	#FFD700 25%, #D4AF37 75% )
   }
   
-  .sidenav a {
+  .sidenav .NavAnchor {
     padding: 20px 5px 20px 10px;
     margin-top: 40px;
     text-decoration: none;
@@ -50,6 +55,9 @@
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
+      font-size: 30px;
+      color: #0052cc;
+      padding-top: 50px;
   }
 
   .socialmedia a:hover {
