@@ -1,4 +1,4 @@
-.Menu {
+.myMenu {
     height: 100%; 
     width: 0;
     position: fixed;
@@ -23,7 +23,7 @@
             border-bottom: 1px solid rgba(0,0,0,.25);
     }
   }
-  .Menu a {
+  .myMenu a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
         color: white;
@@ -32,7 +32,7 @@
     transition: 0.3s;
   }
   
-  .Menu .closebtn {
+  .myMenu .closebtn {
     position: absolute;
     top: 0;
     right: 0;

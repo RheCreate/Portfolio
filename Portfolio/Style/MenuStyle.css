@@ -1,4 +1,4 @@
-.Menu {
+.myMenu {
   height: 100%;
   width: 0;
   position: fixed;
@@ -13,12 +13,12 @@
   display: block;
 }
 
-.Menu ul {
+.myMenu ul {
   list-style-type: none;
   text-align: left;
 }
 
-.Menu ul .Smenu {
+.myMenu ul .Smenu {
   width: 333px;
   height: 56px;
   font-size: 16px;
@@ -28,7 +28,7 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-.Menu .Menu a {
+.myMenu .myMenu a {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
   color: white;
@@ -38,7 +38,7 @@
   transition: 0.3s;
 }
 
-.Menu .Menu .closebtn {
+.myMenu .myMenu .closebtn {
   position: absolute;
   top: 0;
   right: 0;
@@ -46,7 +46,7 @@
   font-size: 15px;
 }
 
-.Menu body {
+.myMenu body {
   -webkit-transition: margin-right .5s;
   transition: margin-right .5s;
 }

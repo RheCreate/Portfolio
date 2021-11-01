@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width,initial-scale=1">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <link href="Style/MenuStyle.css">
+   <link rel="MenuStyle" href="Style/MenuStyle.css">
    <link rel="stylesheet" href="Style/stylesheet.css">
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
    <link rel="shortcut icon" type="image/png" href="Images/favicon.png"/>
 </head>
 
-<body>
+<body id="bodymain">
 
         
 <div class="sidenav">
@@ -50,8 +50,8 @@
         <div class="button">
           <span onclick="openNav()">
                       <i class="fa fas fa-bars fa-2x"></i>
-          </span>
         </div>
+    </span>
         
       <div class="IntroText">
          <h1>Rhian Murray</h1>
@@ -177,7 +177,7 @@
 
 </body>
 
-<div id="myMenu" class="Menu">
+<div id="Menu" class="myMenu">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <ul>
      <li class="Smenu"><a href="About.html">About Me</a></li>
