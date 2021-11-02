@@ -165,12 +165,6 @@ display: none;
         margin-left: -10px;
       }
     }
-    .FrameTXT1 {
-      margin-top: -25px;
-      width: 450px;
-      height: 590px;
-      z-index: 10;
-    }
    }
     .Middle {
       display: flex;
@@ -185,11 +179,6 @@ display: none;
         margin-top: 115px;       
         border-radius: 45px;
       }     
-      .FramePIC {
-        width: 600px;
-        height: 700px;
-        position: absolute;
-      }
     }
     .End {
       display: flex;
@@ -214,12 +203,6 @@ display: none;
       p{
         padding: 25px 10px 10px 10px;
       }
-    }
-    .FrameTXT2 {
-      width: 452px;
-      height: 630px;
-      z-index: 10;
-      margin-top: -25px;
     }
     }
   }
@@ -280,16 +263,9 @@ display: none;
               margin-left: 0;
             }
           }
-          .FrameTXT1 {
-            width: 350px;
-          }
         }
         .Middle {
           width: 100%;
-          .FramePIC {
-            width: 350px;
-            height: 400px;
-          }
           .Profile {
             width: 225px;
             height: 300px;
@@ -305,9 +281,6 @@ display: none;
             width: 260px;
             font-size: 14px;
             height: 535px;
-          }
-          .FrameTXT2 {
-            width: 350px;
           }
         }
       }
@@ -419,16 +392,9 @@ display: none;
             margin-left: 0;
           }
         }
-        .FrameTXT1 {
-          width: 350px;
-        }
       }
       .Middle {
         width: 100%;
-        .FramePIC {
-          width: 350px;
-          height: 400px;
-        }
         .Profile {
           width: 225px;
           height: 300px;
@@ -444,9 +410,6 @@ display: none;
           width: 260px;
           font-size: 14px;
           height: 535px;
-        }
-        .FrameTXT2 {
-          width: 350px;
         }
       }
     }
@@ -749,9 +712,6 @@ display: none;
       width: 20%;
       height: 50%;
     }
-    .FrameTXT1 {
-      width: 100%;
-    }
    }
     .Middle {
       width: 100%;
@@ -762,10 +722,6 @@ display: none;
         height: 300px;
         margin-top: 75px;       
       }     
-      .FramePIC {
-        width: 375px;
-        height: 450px;
-      }
     }
     .End {
       width: 100%;
@@ -774,9 +730,6 @@ display: none;
     .ETXT {
       width: 25%;
       height: 65%;
-    }
-    .FrameTXT2 {
-      width: 100%;
     }
     }
   }
