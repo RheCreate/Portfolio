@@ -289,17 +289,17 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: absolute;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    position: absolute;
     width: 60px;
     height: 60px;
-    background-color: #000066;
     color: #D4AF37;
-    border: 2px #D4AF37 solid;
+    border: none;
     border-radius: 3px;
-    top: 0px;
+    margin-top: 0px;
+    top: 0;
   }
   .Inner .button .fas {
     margin-top: 15px;
@@ -310,8 +310,6 @@ body {
     height: 60px;
   }
   .Inner .button:hover {
-    color: #D4AF37;
-    background-color: #0052cc;
     border: 2px #D4AF37 solid;
   }
   .Inner .Top {
@@ -357,6 +355,57 @@ body {
   .Inner p {
     font-size: 15px;
   }
+  .myMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: block;
+  }
+  .myMenu ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  .myMenu ul .Smenu {
+    width: 333px;
+    height: 56px;
+    font-size: 25px;
+    margin-left: -40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #D4AF37;
+  }
+  .myMenu .menuAnchor {
+    text-decoration: none;
+    font-family: 'Poiret One';
+    color: #0052cc;
+    font-weight: bold;
+  }
+  .myMenu .menuAnchor:hover {
+    color: #D4AF37;
+  }
+  .myMenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+    font-size: 50px;
+    text-decoration: none;
+  }
+  .myMenu .closebtn:hover {
+    color: #D4AF37;
+  }
+  .myMenu body {
+    -webkit-transition: margin-right .5s;
+    transition: margin-right .5s;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 767.98px) {
@@ -380,17 +429,17 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: absolute;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    position: absolute;
     width: 60px;
     height: 60px;
-    background-color: #000066;
     color: #D4AF37;
-    border: 2px #D4AF37 solid;
+    border: none;
     border-radius: 3px;
-    top: 0px;
+    margin-top: 0px;
+    top: 0;
   }
   .Inner .button .fas {
     margin-top: 15px;
@@ -401,8 +450,6 @@ body {
     height: 60px;
   }
   .Inner .button:hover {
-    color: #D4AF37;
-    background-color: #0052cc;
     border: 2px #D4AF37 solid;
   }
   .Inner .Top {
@@ -441,6 +488,57 @@ body {
   }
   .Inner p {
     font-size: 15px;
+  }
+  .myMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: block;
+  }
+  .myMenu ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  .myMenu ul .Smenu {
+    width: 333px;
+    height: 56px;
+    font-size: 25px;
+    margin-left: -40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #D4AF37;
+  }
+  .myMenu .menuAnchor {
+    text-decoration: none;
+    font-family: 'Poiret One';
+    color: #0052cc;
+    font-weight: bold;
+  }
+  .myMenu .menuAnchor:hover {
+    color: #D4AF37;
+  }
+  .myMenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+    font-size: 50px;
+    text-decoration: none;
+  }
+  .myMenu .closebtn:hover {
+    color: #D4AF37;
+  }
+  .myMenu body {
+    -webkit-transition: margin-right .5s;
+    transition: margin-right .5s;
   }
 }
 
@@ -464,24 +562,20 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    position: absolute;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    position: absolute;
     width: 60px;
     height: 60px;
-    background-color: #000066;
     color: #D4AF37;
-    border: 2px #D4AF37 solid;
+    border: none;
     border-radius: 3px;
+    margin-top: 0px;
     top: 0;
   }
   .Inner .button .fas {
-    margin-left: 15px;
+    margin-top: 15px;
   }
   .Inner a {
     text-decoration: none;
@@ -489,8 +583,6 @@ body {
     height: 60px;
   }
   .Inner .button:hover {
-    color: #D4AF37;
-    background-color: #0052cc;
     border: 2px #D4AF37 solid;
   }
   .Inner .Top {
@@ -529,6 +621,57 @@ body {
   }
   .Inner p {
     font-size: 15px;
+  }
+  .myMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: block;
+  }
+  .myMenu ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  .myMenu ul .Smenu {
+    width: 333px;
+    height: 56px;
+    font-size: 25px;
+    margin-left: -40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #D4AF37;
+  }
+  .myMenu .menuAnchor {
+    text-decoration: none;
+    font-family: 'Poiret One';
+    color: #0052cc;
+    font-weight: bold;
+  }
+  .myMenu .menuAnchor:hover {
+    color: #D4AF37;
+  }
+  .myMenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+    font-size: 50px;
+    text-decoration: none;
+  }
+  .myMenu .closebtn:hover {
+    color: #D4AF37;
+  }
+  .myMenu body {
+    -webkit-transition: margin-right .5s;
+    transition: margin-right .5s;
   }
 }
 

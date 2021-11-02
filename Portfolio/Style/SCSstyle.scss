@@ -248,15 +248,15 @@
             padding: 0;
             .button {
               display: flex;
-              justify-content: center;
               position: absolute;
+              justify-content: center;
               width: 60px;
               height: 60px;
-              background-color: #000066;
               color: #D4AF37;
-              border: 2px #D4AF37 solid;
+              border: none;
               border-radius: 3px;
-              top: 0px;
+              margin-top: 0px;
+              top: 0;
               .fas {
                 margin-top: 15px;
               }
@@ -267,8 +267,6 @@
               height: 60px;
             }
             .button:hover {
-              color: #D4AF37;
-              background-color: #0052cc;
               border: 2px #D4AF37 solid;
             }
             .Top {
@@ -315,6 +313,59 @@
                 font-size: 15px;
             }
           }
+          .myMenu {
+            height: 100%; 
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            background-color: white; 
+            overflow-x: hidden;
+            padding-top: 5px;
+            transition: 0.5s;
+            display: block;
+            ul {
+                list-style-type: none;
+                text-align: center;
+                .Smenu {
+                    width: 333px;
+                    height: 56px;
+                    font-size: 25px;
+                    margin-left: -40px;
+                    padding-left: 20px;
+                    padding-top: 20px;
+                    border-bottom: 1px solid #D4AF37;
+            }
+          }
+          .menuAnchor {
+              text-decoration: none;
+              font-family: 'Poiret One';
+              color: #0052cc;
+              font-weight: bold;
+          }
+    
+          .menuAnchor:hover {
+              color: #D4AF37;
+          }
+          
+          .closebtn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-right: 30px;
+            font-size: 50px;
+            text-decoration: none;
+          }
+    
+          .closebtn:hover {
+              color: #D4AF37;
+          }
+          
+          body {
+            transition: margin-right .5s;
+          }
+         }
         }
 
 
@@ -333,15 +384,15 @@
       padding: 0;
       .button {
         display: flex;
-        justify-content: center;
         position: absolute;
+        justify-content: center;
         width: 60px;
         height: 60px;
-        background-color: #000066;
         color: #D4AF37;
-        border: 2px #D4AF37 solid;
+        border: none;
         border-radius: 3px;
-        top: 0px;
+        margin-top: 0px;
+        top: 0;
         .fas {
           margin-top: 15px;
         }
@@ -352,8 +403,6 @@
         height: 60px;
       }
       .button:hover {
-        color: #D4AF37;
-        background-color: #0052cc;
         border: 2px #D4AF37 solid;
       }
       .Top {
@@ -394,6 +443,59 @@
           font-size: 15px;
       }
     }
+    .myMenu {
+      height: 100%; 
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: white; 
+      overflow-x: hidden;
+      padding-top: 5px;
+      transition: 0.5s;
+      display: block;
+      ul {
+          list-style-type: none;
+          text-align: center;
+          .Smenu {
+              width: 333px;
+              height: 56px;
+              font-size: 25px;
+              margin-left: -40px;
+              padding-left: 20px;
+              padding-top: 20px;
+              border-bottom: 1px solid #D4AF37;
+      }
+    }
+    .menuAnchor {
+        text-decoration: none;
+        font-family: 'Poiret One';
+        color: #0052cc;
+        font-weight: bold;
+    }
+
+    .menuAnchor:hover {
+        color: #D4AF37;
+    }
+    
+    .closebtn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-right: 30px;
+      font-size: 50px;
+      text-decoration: none;
+    }
+
+    .closebtn:hover {
+        color: #D4AF37;
+    }
+    
+    body {
+      transition: margin-right .5s;
+    }
+   }
   }
 
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -411,18 +513,17 @@
       margin-top: 0;
       .button {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         position: absolute;
+        justify-content: center;
         width: 60px;
         height: 60px;
-        background-color: #000066;
         color: #D4AF37;
-        border: 2px #D4AF37 solid;
+        border: none;
         border-radius: 3px;
+        margin-top: 0px;
         top: 0;
         .fas {
-          margin-left: 15px;
+          margin-top: 15px;
         }
       }
       a {
@@ -431,8 +532,6 @@
         height: 60px;
       }
       .button:hover {
-        color: #D4AF37;
-        background-color: #0052cc;
         border: 2px #D4AF37 solid;
       }
       .Top {
@@ -473,6 +572,59 @@
           font-size: 15px;
       }
     }
+    .myMenu {
+      height: 100%; 
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: white; 
+      overflow-x: hidden;
+      padding-top: 5px;
+      transition: 0.5s;
+      display: block;
+      ul {
+          list-style-type: none;
+          text-align: center;
+          .Smenu {
+              width: 333px;
+              height: 56px;
+              font-size: 25px;
+              margin-left: -40px;
+              padding-left: 20px;
+              padding-top: 20px;
+              border-bottom: 1px solid #D4AF37;
+      }
+    }
+    .menuAnchor {
+        text-decoration: none;
+        font-family: 'Poiret One';
+        color: #0052cc;
+        font-weight: bold;
+    }
+
+    .menuAnchor:hover {
+        color: #D4AF37;
+    }
+    
+    .closebtn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-right: 30px;
+      font-size: 50px;
+      text-decoration: none;
+    }
+
+    .closebtn:hover {
+        color: #D4AF37;
+    }
+    
+    body {
+      transition: margin-right .5s;
+    }
+   }
   }
 
   // Large-medium/Small-large devices
