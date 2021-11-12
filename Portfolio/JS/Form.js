@@ -8,10 +8,8 @@ function validateEmail(email) {
     email.text("");
     if(validateEmail(email)) {
       email.text(email + " is valid");
-      email.css("color", "green");
     } else {
       email.text(email + " is not valid");
-      email.css("color", "red");
     }
     return false;
   }
