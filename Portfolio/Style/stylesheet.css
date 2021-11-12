@@ -1034,6 +1034,18 @@ input[type=submit]:hover {
   padding: 0;
 }
 
+#email {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
 @media (max-width: 479.98px) {
   .FormSection {
     width: 100%;

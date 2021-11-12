@@ -1,5 +1,17 @@
-const emailInput = document.getElementById('Email');
-const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-if (!emailInput.value.match(emailRegex)) {
-  alert('Invalid email address.');
-}
+function validateEmail(email) {
+    const res = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return res.test(String(email).toLowerCase());
+  }
+  function validate() {
+    let result = $("#result");
+    let email = $("#email").val();
+    email.text("");
+    if(validateEmail(email)) {
+      email.text(email + " is valid");
+      email.css("color", "green");
+    } else {
+      email.text(email + " is not valid");
+      email.css("color", "red");
+    }
+    return false;
+  }
