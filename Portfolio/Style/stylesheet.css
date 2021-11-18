@@ -232,10 +232,10 @@ body {
     border-left: none;
     margin-left: 0;
     margin-left: 0px;
+    background-color: aliceblue;
   }
   .IntroSection .BannerImage {
-    width: 100%;
-    height: 500px;
+    display: none;
   }
   .IntroSection .button {
     display: -webkit-box;
@@ -271,12 +271,16 @@ body {
   }
   .IntroText h1 {
     font-size: 50px;
+    color: #D4AF37;
+    mix-blend-mode: normal;
   }
   .IntroText h2 {
     font-size: 30px;
+    color: #D4AF37;
+    mix-blend-mode: normal;
   }
   .IntroScroll {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .IntroScroll .fas {
     margin-left: 45px;
@@ -386,6 +390,9 @@ body {
   }
   .IntroText h2 {
     font-size: 40px;
+  }
+  .IntroScroll {
+    margin-bottom: 0px;
   }
   .IntroScroll .fas {
     margin-left: 45px;

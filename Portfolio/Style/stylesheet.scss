@@ -202,7 +202,7 @@
     font-weight: 700;
   }
 
- // Smaller sized devices media queries
+ // Smaller sized devices media queries.. I have removed the background imahe in this size as becomes distorted, have replaced with a background colour in keeping with colour scheme.
 
  @media (max-width: 479.98px) {
     .IntroSection {
@@ -212,9 +212,9 @@
         border-left: none;
         margin-left: 0;
         margin-left: 0px;
+        background-color:aliceblue;
         .BannerImage {
-            width: 100%;
-            height: 500px;
+            display: none;
         }
         .button {
             display: flex;
@@ -246,13 +246,17 @@
         margin-top: 100px;
         h1 {
             font-size: 50px;
+            color: #D4AF37;
+            mix-blend-mode: normal;
         }
         h2 {
-          font-size: 30px;
+          font-size: 30px;      
+            color: #D4AF37;
+            mix-blend-mode: normal;
       }
       }
       .IntroScroll {
-          margin-bottom: 20px;
+          margin-bottom: 0px;
           .fas {
               margin-left: 45px;
           }
@@ -362,6 +366,7 @@
     }
     }
     .IntroScroll {
+        margin-bottom: 0px;
         .fas {
             margin-left: 45px;
         }
