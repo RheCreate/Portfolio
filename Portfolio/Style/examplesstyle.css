@@ -146,7 +146,9 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 750px;
-  margin-top: 100px;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .Example1 h1 {
@@ -564,6 +566,9 @@ body {
     -webkit-transition: margin-right .5s;
     transition: margin-right .5s;
   }
+  .Example1 {
+    margin-top: 150px;
+  }
 }
 
 @media (min-width: 1242px) and (max-width: 1799.98px) {
@@ -581,6 +586,11 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    border-top: none;
+    border-bottom: none;
+  }
+  .Example1 {
+    margin-top: 150px;
   }
 }
 /*# sourceMappingURL=examplesstyle.css.map */

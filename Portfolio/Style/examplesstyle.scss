@@ -129,7 +129,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 750px;
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
     h1 {
       font-family: 'Sacramento';
       color: #D4AF37;
@@ -529,6 +531,9 @@ h3 {
       transition: margin-right .5s;
     }
    }
+   .Example1 {
+     margin-top: 150px;
+   }
   }
 
   //Desktop Media Queries
@@ -546,6 +551,11 @@ h3 {
     height: 80%;
     margin-top: 150px;
     justify-content: center;
+    border-top: none;
+    border-bottom: none;
+  }
+  .Example1 {
+    margin-top: 150px;
   }
 }
    
