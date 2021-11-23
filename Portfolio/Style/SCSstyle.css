@@ -225,6 +225,7 @@ body {
     padding: none;
     border-left: none;
     margin-left: 0px;
+    height: 2000px;
   }
   .Inner {
     max-width: 100%;
@@ -234,6 +235,7 @@ body {
             flex-direction: column;
     margin-top: 0;
     padding: 0;
+    height: 2000px;
   }
   .Inner .button {
     display: -webkit-box;
