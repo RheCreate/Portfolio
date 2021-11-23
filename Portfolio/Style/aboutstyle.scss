@@ -172,7 +172,7 @@ display: none;
       margin-top: 80px;
       .Profile {
         width: 400px;
-        height: 450px;
+        height: 500px;
         position: absolute;
         margin-top: 115px;       
         border-radius: 45px;
@@ -264,10 +264,13 @@ display: none;
         }
         .Middle {
           width: 100%;
+          margin-top: 0px;
+          padding-bottom: 30px;
           .Profile {
             width: 225px;
             height: 300px;
             margin-left: -10px;
+            margin-top: -15px;
           }
         }
         .End {
